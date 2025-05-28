@@ -1,0 +1,180 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product Demo & Support",
+        "id": 54321,
+        "image_url": "https://picsum.photos/id/180/200/300",
+        "participant": [
+          {
+            "id": "support@company.com",
+            "name": "Tech Support",
+            "role": 1
+          },
+          {
+            "id": "demo.specialist@company.com",
+            "name": "Demo Specialist",
+            "role": 1
+          },
+          {
+            "id": "client@business.com",
+            "name": "Business Client",
+            "role": 2
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 990001,
+          "type": "text",
+          "message": "Hi, I need help understanding how your product works",
+          "sender": "client@business.com"
+        },
+        {
+          "id": 990002,
+          "type": "text",
+          "message": "I'll share a quick demo video to show you the main features",
+          "sender": "demo.specialist@company.com"
+        },
+        {
+          "id": 990003,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "demo.specialist@company.com",
+          "metadata": {
+            "video": {
+              "duration": 180
+            }
+          }
+        },
+        {
+          "id": 990004,
+          "type": "text",
+          "message": "That's helpful! But I'm having trouble with the installation process",
+          "sender": "client@business.com"
+        },
+        {
+          "id": 990005,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "support@company.com",
+          "metadata": {
+            "video": {
+              "duration": 120
+            }
+          }
+        },
+        {
+          "id": 990006,
+          "type": "text",
+          "message": "I followed the steps but got an error. Let me record what's happening",
+          "sender": "client@business.com"
+        },
+        {
+          "id": 990007,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "client@business.com",
+          "metadata": {
+            "video": {
+              "duration": 35
+            }
+          }
+        },
+        {
+          "id": 990008,
+          "type": "text",
+          "message": "I can see the issue. It's a common configuration problem. Let me show you the fix",
+          "sender": "support@company.com"
+        },
+        {
+          "id": 990009,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "support@company.com",
+          "metadata": {
+            "video": {
+              "duration": 90
+            }
+          }
+        },
+        {
+          "id": 990010,
+          "type": "document",
+          "message": "Configuration file template for reference",
+          "sender": "support@company.com",
+          "metadata": {
+            "document": {
+              "fileName": "config_template.json",
+              "fileSize": 15672,
+              "fileType": "application/json"
+            }
+          }
+        },
+        {
+          "id": 990011,
+          "type": "text",
+          "message": "Perfect! That worked. Now let me test the advanced features",
+          "sender": "client@business.com"
+        },
+        {
+          "id": 990012,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "client@business.com",
+          "metadata": {
+            "video": {
+              "duration": 60
+            }
+          }
+        },
+        {
+          "id": 990013,
+          "type": "text",
+          "message": "Great! Everything looks good. Here's an advanced tutorial for those features",
+          "sender": "demo.specialist@company.com"
+        },
+        {
+          "id": 990014,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "demo.specialist@company.com",
+          "metadata": {
+            "video": {
+              "duration": 300
+            }
+          }
+        },
+        {
+          "id": 990015,
+          "type": "image",
+          "message": "/image.png",
+          "sender": "demo.specialist@company.com",
+          "metadata": {
+            "image": {
+              "width": 1200,
+              "height": 800
+            }
+          }
+        },
+        {
+          "id": 990016,
+          "type": "text",
+          "message": "Thank you so much! This has been incredibly helpful",
+          "sender": "client@business.com"
+        },
+        {
+          "id": 990017,
+          "type": "video",
+          "message" : "/veo3.mp4",
+          "sender": "support@company.com",
+          "metadata": {
+            "video": {
+              "duration": 45
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
